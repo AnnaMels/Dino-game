@@ -8,7 +8,7 @@
 #dino {
   width: 50px;
   height: 50px;
-  background-image: url("/dino-game/img/dino.png");
+  background-image: url("/Dino-game/img/dino.png");
   background-size: contain;
   position: relative;
   top: 150px;
@@ -17,7 +17,7 @@
 #cactus {
   width: 20px;
   height: 40px;
-  background-image: url("/dino-game/img/cactus.png");
+  background-image: url("/Dino-game/img/cactus.png");
   background-size: contain;
   position: relative;
   top: 110px;
