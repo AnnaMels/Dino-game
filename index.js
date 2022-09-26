@@ -14,7 +14,7 @@ refs = {
 // });
 
 
-document.addEventListener('touchmove', () => {
+document.addEventListener('touchstart', () => {
     if (!refs.dino.classList.contains('jump')) {
         refs.dino.classList.add('jump')
     }
