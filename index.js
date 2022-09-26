@@ -10,6 +10,17 @@ document.addEventListener('keydown', () => {
 
     setTimeout(() => {
         refs.dino.classList.remove('jump')
+    }, 400)
+});
+
+
+document.addEventListener('touchmove', () => {
+    if (!refs.dino.classList.contains('jump')) {
+        refs.dino.classList.add('jump')
+    }
+
+    setTimeout(() => {
+        refs.dino.classList.remove('jump')
     }, 300)
 });
 
