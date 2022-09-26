@@ -3,15 +3,15 @@ refs = {
     cactus: document.getElementById('cactus'),
 };
 
-document.addEventListener('keydown', () => {
-    if (!refs.dino.classList.contains('jump')) {
-        refs.dino.classList.add('jump')
-    }
+// document.addEventListener('keydown', () => {
+//     if (!refs.dino.classList.contains('jump')) {
+//         refs.dino.classList.add('jump')
+//     }
 
-    setTimeout(() => {
-        refs.dino.classList.remove('jump')
-    }, 400)
-});
+//     setTimeout(() => {
+//         refs.dino.classList.remove('jump')
+//     }, 400)
+// });
 
 
 document.addEventListener('touchmove', () => {
